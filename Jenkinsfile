@@ -22,7 +22,7 @@ node('master') {
     }
   }
   state('Results') {
-    junit '**/target/surefire-reports/TEST*.xml'
+    junit '**/target/surefire-reports/TTTT*.xml'
     archive 'target/*.jar'
   }
 }
